@@ -8,9 +8,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Route exact path="/home" component={Home} />
+        <Route path="/home" component={Home} />
         <Route exact path="/" component={Welcome} />
-        <Route path="*" component={Welcome} />
+        <Route component={Welcome} />
       </div>
       </Router>
       
