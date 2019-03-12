@@ -6,9 +6,9 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <div className="App">
-        <Route exact path="/" component={Welcome} />
+        <Route path="/" component={Welcome} />
         <Route exact path="/home" component={Home} />
       </div>
       </Router>
