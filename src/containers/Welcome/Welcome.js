@@ -5,7 +5,7 @@ import {headerLogo} from '../../assets/imgs/index';
 class Welcome extends Component {
 
 handleButtonClick = () => {
-    this.props.history.push(`/my-portfolio-in-react/home`);
+    this.props.history.push(`/home`);
 }
 
 render() {
