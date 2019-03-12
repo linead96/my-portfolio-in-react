@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+/* Index Page */
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans";
+    background: black;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+#index-header {
+    height: 100vh;
+    background-image: url("../assets/imgs/header-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#index-header img{
+    margin-top: 25vh;
+}
+
+#index-header h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight:    400;
+}
+
+#index-header button{
+    height: 4vh;
+    width: 15rem;
+    margin-top: 1.5rem;
+    border: 0px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: "Courier";
+    font-weight: 800;
+    font-family: "Open Sans";
+    letter-spacing: 0.2rem;
+}
+
+/* Home Page : Header */
+
+#nav-header-and-skills-container{
+ background-image: url("../assets/imgs/body-navbar-background.png");
+ background-size: cover;
+}
+
+#nav-header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-header-container img{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#nav-header-container nav{
+    width: 50%;
+    margin-bottom: 5rem;
+}
+
+#nav-header-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#nav-header a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Home Page : My Skills */
+
+#my-skills{
+    background-image: url("../assets/imgs/my-skills-bg.png");
+    background-size: cover;
+    padding: 5rem 20rem;
+}
+
+#my-skills-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#my-skills-description{
+    width: 20rem;
+    margin: auto;
+    text-align: start;
+}
+
+#my-skills-box-grid{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#my-skills-box-grid div{
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#my-skills i {
+    font-size: 3rem;
+}
+
+#my-skills-box-grid ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* Home Page : My Projects */
+
+/* #my-projects > div{
+
+} */
+
+#my-projects{
+    background-image: url("../assets/imgs/my-projects-bg.png");
+    background-size: cover;
+}
+
+#my-projects-header{
+    text-align: center;
+}
+
+#my-projects h2{
+    margin: 0;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}
+
+#my-projects p{
+    font-weight: 300;
+    margin: 0 25%;
+    margin-bottom: 2rem;
+}
+
+#my-projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 15rem;
+    padding-bottom: 5rem;
+}
+
+#my-projects-grid > div{
+    margin: 1.2rem 1rem;
+}
+
+/* Home Page : About Me */
+
+#about-me{
+    background-image: url("../assets/imgs/about-me-bg.png");
+    background-size: cover;   
+}
+
+#about-me h2{
+    margin-top: 5rem;
+}
+
+#about-me p{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+#about-me a{
+    color: white;
+    margin: 0 2rem;
+}
+
+#about-me > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me button{
+    width: 12rem;
+    height: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Home Page : Footer */
+
+#footer{
+    background: #090909;
+}
+
+#footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer img{
+    margin: 0.5em 0;
+    width: 50px;
+}
+
+#footer p{
+    margin: 0;
+}
