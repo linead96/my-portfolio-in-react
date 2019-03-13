@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import React, { Component } from 'react';
 import {Welcome, Home} from './containers/index'; 
 import { Route, BrowserRouter as Router } from 'react-router-dom';
