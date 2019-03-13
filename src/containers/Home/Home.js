@@ -3,7 +3,7 @@ import '../style.css';
 import { frontend, myProjectBuod, myProjectElyza, myProjectYelpCamp, navbarLogo, headerLogo} from '../../assets/imgs/index';
 
 import { faDatabase, faTools } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare, faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
@@ -98,9 +98,9 @@ const Home = () => {
                 <h2>About Me</h2>
                 <p>Get To Know Me More</p>
                 <div id="about-me-social-links-div">
-                    <a href="https://www.facebook.com/daniel.garbosa"><FontAwesomeIcon icon={faFacebookSquare} size="4x"/></a>
                     <a href="https://www.linkedin.com/in/daniel-garbosa-b39477120/"><FontAwesomeIcon icon={faLinkedin} size="4x"/></a>
                     <a href="https://github.com/linead96"><FontAwesomeIcon icon={faGithubSquare} size="4x" /></a>
+                    <a href="https://www.instagram.com/dalandan.juice"><FontAwesomeIcon icon={faInstagram} size="4x"/></a>
                 </div>
                 <a href="https://drive.google.com/open?id=12DPyt1Xy_8luw9wXzP9PgSa2jhmltk0Z"><button>Download Resume</button></a>
             </div>
