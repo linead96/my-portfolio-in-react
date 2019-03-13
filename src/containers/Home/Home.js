@@ -97,7 +97,7 @@ const Home = () => {
             <div>
                 <h2>About Me</h2>
                 <p>Get To Know Me More</p>
-                <div>
+                <div id="about-me-social-links-div">
                     <a href="https://www.facebook.com/daniel.garbosa"><FontAwesomeIcon icon={faFacebookSquare} size="4x"/></a>
                     <a href="https://www.linkedin.com/in/daniel-garbosa-b39477120/"><FontAwesomeIcon icon={faLinkedin} size="4x"/></a>
                     <a href="https://github.com/linead96"><FontAwesomeIcon icon={faGithubSquare} size="4x" /></a>
