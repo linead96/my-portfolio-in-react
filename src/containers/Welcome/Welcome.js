@@ -12,7 +12,7 @@ render() {
     return(
         <div id="index-container">
         <div id="index-header">
-                <img src={headerLogo} alt="alt-logo"/>
+                <img src={headerLogo} alt="Daniel Garbosa"/>
                 <h1>Daniel Garbosa</h1>
                 <button onClick={this.handleButtonClick}>Know Me More</button>
         </div>

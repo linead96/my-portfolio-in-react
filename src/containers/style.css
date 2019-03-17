@@ -42,16 +42,21 @@ body{
 }
 
 #index-header button{
-    height: 4vh;
-    width: 15rem;
+    height: 4rem;
+    width: 16rem;
     margin-top: 1.5rem;
     border: 0px;
     background-color: white;
     text-transform: uppercase;
     font-family: "Courier";
-    font-weight: 800;
+    font-weight: 300;
     font-family: "Open Sans";
     letter-spacing: 0.2rem;
+    padding: 1.5em 3em;
+}
+
+#index-header button:hover{
+    font-weight: 800;
 }
 
 /* Home Page : Header */
@@ -75,7 +80,7 @@ body{
 
 #nav-header-container nav{
     width: 50%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 #nav-header-container ul{
@@ -83,6 +88,10 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 0;
+}
+
+#nav-header-container li:hover{
+    text-decoration: underline;
 }
 
 #nav-header a{
@@ -95,7 +104,7 @@ body{
 #my-skills{
     background-image: url("../assets/imgs/my-skills-bg.png");
     background-size: cover;
-    padding: 5rem 20rem;
+    padding: 4rem 20rem;
 }
 
 #my-skills-div{
@@ -166,7 +175,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 15rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 #my-projects-grid > div{
@@ -202,12 +211,17 @@ body{
 }
 
 #about-me button{
-    width: 12rem;
-    height: 2.5rem;
+    width: 15rem;
+    height: 4rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
+    padding: 1em 1em;
+}
+
+#about-me button:hover{
+    font-weight: 800;
 }
 
 /* Home Page : Footer */
@@ -223,12 +237,13 @@ body{
 }
 
 #footer img{
-    margin: 0.5em 0;
+    margin: 1em 0;
     width: 50px;
 }
 
 #footer p{
     margin: 0;
+    margin-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 1024px){
@@ -237,6 +252,9 @@ body{
     }
     #my-skills{
         padding: 0;
+    }
+    #my-skills h2{
+        padding-top: 3rem;
     }
     #my-skills-description {
         width: 80%;
