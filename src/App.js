@@ -1,7 +1,7 @@
 import 'babel-polyfill'
 import React, { Component } from 'react';
 import {Welcome, Home} from './containers/index'; 
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -9,11 +9,13 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-        <Route path="/home" component={Home} />
-        <Route exact path="/" component={Welcome} />
+          <Switch>
+            <Route exact path="/" component={Welcome} />
+            <Route path="/home" component={Home} />
+            <Route component = {Home} />
+          </Switch>
       </div>
       </Router>
-      
     );
   }
 }
